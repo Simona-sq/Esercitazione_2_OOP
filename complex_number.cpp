@@ -42,35 +42,10 @@ int main(void)
         Scrivo espicitamente la conversione da double in complex_number<double>.
     */
     
-
-    std::cout << "\nI numeri complessi hanno la seguente forma:" << std::endl;
-    std::cout << c1 << std::endl;
-    std::cout << c2 << std::endl;
-    std::cout << c3 << std::endl;
-    std::cout << c4 << std::endl;
-    std::cout << "\nCioè sono composti da una parte reale..." << std::endl;
-    std::cout << c1.real() << std::endl;
-    std::cout << c2.real() << std::endl;
-    std::cout << c3.real() << std::endl;
-    std::cout << c4.real() << std::endl;
-    std::cout << "\n...E da una parte immaginaria." << std::endl;
-    std::cout << c1.imaginary() << std::endl;
-    std::cout << c2.imaginary() << std::endl;
-    std::cout << c3.imaginary() << std::endl;
-    std::cout << c4.imaginary() << std::endl;
-    std::cout << "\nInoltre, per ogni numero complesso, è definito il suo complesso coniugato." << std::endl;
-    std::cout << c1.conjugate() << std::endl;
-    std::cout << c2.conjugate() << std::endl;
-    std::cout << c3.conjugate() << std::endl;
-    std::cout << c4.conjugate() << std::endl;
-    std::cout << "\nSi possono fare addizioni con i numeri complessi..." << std::endl;
-    std::cout << "3.5 + (5+12i) = " << c5 << std::endl;
-    std::cout << "(6-5i) + 3.5 = " << c6 << std::endl;
-    std::cout << c1 << " + " << c2 << " = " << c7 << std::endl;
-    std::cout << "\n...E anche moltiplicazioni con i numeri complessi." << std::endl;
-    std::cout << "3.5 * (5+12i) = " << c8 << std::endl;
-    std::cout << "(6-5i) * 3.5 = "<< c9 << std::endl;
-    std::cout <<c1<<" * "<<c2<<" = "<< c10 << std::endl;
+    // Stampe
+    std::cout << "\nI numeri complessi hanno la seguente forma:\n" << c1 << "\n" << c2 << "\n" << c3 << "\n" << c4 << "\n\nCioè sono composti da una parte reale...\n" << c1.real() << "\n" << c2.real() << "\n" << c3.real() << "\n" << c4.real() << "\n\n...E da una parte immaginaria.\n" << c1.imaginary() << "\n" << c2.imaginary() << "\n" << c3.imaginary() << "\n" << c4.imaginary() << "\n\nInoltre, per ogni numero complesso, è definito il suo complesso coniugato.\n" << c1.conjugate() << "\n" << c2.conjugate() << "\n" << c3.conjugate() << "\n" << c4.conjugate() << std::endl;
+    std::cout << "\nSi possono fare addizioni con i numeri complessi..." << "\n3.5 + (5+12i) = " << c5 << "\n(6-5i) + 3.5 = " << c6 << '\n' << c1 << " + " << c2 << " = " << c7 << std::endl;
+    std::cout << "\n...E anche moltiplicazioni con i numeri complessi.\n" << "3.5 * (5+12i) = " << c8 << "\n(6-5i) * 3.5 = "<< c9 << '\n' <<c1<<" * "<<c2<<" = "<< c10 << std::endl;
 
     return 0;
 }
